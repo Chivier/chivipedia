@@ -1,0 +1,6 @@
+[book]
+authors = ["Chivier Humber"]
+language = "en"
+multilingual = false
+src = "src"
+title = "chivipedia"
