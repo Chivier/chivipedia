@@ -1,6 +1,21 @@
 [book]
 authors = ["Chivier Humber"]
 language = "en"
-multilingual = false
+multilingual = true
 src = "src"
 title = "chivipedia"
+
+[output.html.playground]
+editable = false         
+copyable = true          
+copy-js = true           
+line-numbers = false     
+runnable = false         
+
+[output.html.fold]
+enable = true
+level = 0
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
